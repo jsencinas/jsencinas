@@ -6,7 +6,7 @@
 
 ###
 
-<p align="left">💞️ I’m looking to collaborate on any interesting project</p>
+<p align="left">🤝 I'm currently part of the programming area on FRC team @Daedalus7102</p>
 
 ###
 
