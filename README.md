@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">📫 How to reach me: Instagram, Discord or Reddit</p>
+<p align="left">📫 How to reach me: Instagram, Twitter or Reddit</p>
 
 ###
 
