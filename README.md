@@ -79,8 +79,6 @@
   <img width="25" />
   <img src="https://cdn.simpleicons.org/google/4285F4" height="60" alt="google logo"  />
   <img width="25" />
-  <img src="https://cdn.simpleicons.org/internetexplorer/0076D6" height="60" alt="ie10 logo"  />
-  <img width="25" />
   <img src="https://cdn.simpleicons.org/redhat/EE0000" height="60" alt="redhat logo"  />
 </div>
 
