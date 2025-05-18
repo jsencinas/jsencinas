@@ -4,9 +4,6 @@
 
 <p align="left">👀 I’m highly interested in robotics⚙️, computer science👨‍💻 and rocketry🚀</p>
 
-###
-
-<p align="left">🤝 I'm currently part of the programming area on FRC team @Daedalus7102</p>
 
 ###
 
