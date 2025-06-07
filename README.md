@@ -2,12 +2,12 @@
 
 ###
 
-<p align="left">👀 I’m highly interested in robotics⚙️, computer science👨‍💻 and rocketry🚀</p>
+<p align="left">👀 I’m highly interested in computer science👨‍💻 and robotics⚙️</p>
 
 
 ###
 
-<p align="left">📫 How to reach me: Instagram, Twitter or Reddit</p>
+<p align="left">📫 How to reach me: email</p>
 
 ###
 
