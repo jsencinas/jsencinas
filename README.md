@@ -1,82 +1,45 @@
-<p align="left">👋 Hi, my name is Jorge Enrique Sánchez</p>
+# Hi there, I'm Jorge Enrique 👋
 
-###
+Computer Science Engineering student at Tecnológico de Monterrey 🎓
+Passionate about low-level systems, software architecture, machine learning and robotics.
 
-<p align="left">👀 I’m highly interested in computer science👨‍💻 and robotics⚙️</p>
+---
 
+### 🛠️ Tech Stack & Tools
 
-###
+**Languages & Systems**
+[![My Skills](https://skillicons.dev/icons?i=cpp,c,java,py,r,bash)](https://skillicons.dev)
 
-<p align="left">📫 How to reach me: email</p>
+**Tools, Frameworks & Environment**
+[![My Skills](https://skillicons.dev/icons?i=linux,arch,git,fastapi,docker,neovim,vscode)](https://skillicons.dev)
 
-###
+---
 
-<p align="left">⚡ Fun fact: I love to play the drums 🥁🤘</p>
+### 🚀 Highlights & Projects
 
-###
+- 🏆 **HackMTY 2026 Finalist (4th Place):** Built *Synthia*, a 3-layer AI voice detection pipeline for banking security using FastAPI, XGBoost, and Cloudflare Tunnels.
+- 🤖 **FIRST Robotics Alumni (FRC 7102):** Former Software Lead responsible for robot control logic and autonomous routines in Java/C++.
+- 🐧 **Linux Enthusiast:** Custom Arch Linux workflows, system tuning, and shell scripting.
+
+---
+
+### ⚡ Fun Facts & Interests
+
+- 🥁 Drummer & Musician
+- 🏃 Running & Fitness
+- 🛡️ Cybersecurity & Embedded Systems Enthusiast
+
+---
+
+### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jsencinas&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=true&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=jsencinas&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=true&order=2" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=jsencinas&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=jsencinas&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="165" alt="languages graph" />
 </div>
 
-###
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="110" height="50" alt="twitter logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="110" height="50" alt="discord logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="110" height="50" alt="instagram logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/stackoverflow/default.svg" width="110" height="50" alt="stackoverflow logo"  />
-</div>
-
-###
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="60" alt="java logo"  />
-  <img width="25" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="60" alt="cplusplus logo"  />
-  <img width="25" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="60" alt="c logo"  />
-  <img width="25" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="60" alt="csharp logo"  />
-  <img width="25" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="60" alt="python logo"  />
-  <img width="25" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="60" alt="dart logo"  />
-  <img width="25" />
-  <img src="https://skillicons.dev/icons?i=github" height="60" alt="github logo"  />
-  <img width="25" />
-  <img src="https://skillicons.dev/icons?i=git" height="60" alt="git logo"  />
-  <img width="25" />
-  <img src="https://skillicons.dev/icons?i=gradle" height="60" alt="gradle logo"  />
-  <img width="25" />
-  <img src="https://skillicons.dev/icons?i=linux" height="60" alt="linux logo"  />
-  <img width="25" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="60" alt="windows8 logo"  />
-  <img width="25" />
-  <img src="https://img.shields.io/badge/Apple-000000?logo=apple&logoColor=white&style=for-the-badge" height="60" alt="apple logo"  />
-  <img width="25" />
-  <img src="https://cdn.simpleicons.org/android/3DDC84" height="60" alt="android logo"  />
-  <img width="25" />
-  <img src="https://skillicons.dev/icons?i=powershell" height="60" alt="powershell logo"  />
-  <img width="25" />
-  <img src="https://skillicons.dev/icons?i=raspberrypi" height="60" alt="raspberrypi logo"  />
-  <img width="25" />
-  <img src="https://cdn.simpleicons.org/flutter/02569B" height="60" alt="flutter logo"  />
-  <img width="25" />
-  <img src="https://skillicons.dev/icons?i=vscode" height="60" alt="vscode logo"  />
-  <img width="25" />
-  <img src="https://skillicons.dev/icons?i=visualstudio" height="60" alt="visualstudio logo"  />
-  <img width="25" />
-  <img src="https://cdn.simpleicons.org/arduino/00979D" height="60" alt="arduino logo"  />
-  <img width="25" />
-  <img src="https://cdn.simpleicons.org/gimp/5C5543" height="60" alt="gimp logo"  />
-  <img width="25" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="60" alt="canva logo"  />
-  <img width="25" />
-  <img src="https://cdn.simpleicons.org/google/4285F4" height="60" alt="google logo"  />
-  <img width="25" />
-  <img src="https://cdn.simpleicons.org/redhat/EE0000" height="60" alt="redhat logo"  />
-</div>
-
-###
+<p align="center">
+  <a href="https://linkedin.com/in/jsencinas">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
