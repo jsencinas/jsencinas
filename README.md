@@ -41,13 +41,6 @@ jorge@gdl:~$ ls projects/
   <img src="https://skillicons.dev/icons?i=linux,arch,git,github,neovim,fastapi,docker&theme=dark" alt="Tools" />
 </p>
 
-### `~/about`
-
-- 🏠 **Techo Jalisco:** on-site volunteer lead on 14 transitional housing builds, directing teams of 15. Vice President of Techito (2024).
-- 🥁 Drummer and musician
-- 🏃 Running and fitness
-- 🗣️ Spanish (native), English (B2)
-
 ### `~/stats`
 
 <p align="center">
