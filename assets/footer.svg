@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="84" viewBox="0 0 860 84" role="img" aria-label="Hex dump of the name Jorge Enrique Sánchez Encinas">
+  <style>
+    text { font-family: 'Geist Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; font-size: 14px; }
+    .off { fill: rgba(243,241,236,.30); }
+    .hex { fill: #D9C7A0; }
+    .asc { fill: rgba(243,241,236,.70); }
+    .row { opacity: 0; animation: in .8s steps(8) forwards; }
+    @keyframes in { to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .row { opacity: 1; animation: none; } }
+  </style>
+  <rect x="0.5" y="0.5" width="859" height="83" rx="12" fill="#0B0C0D" stroke="rgba(243,241,236,.12)"/>
+  <g class="row" style="animation-delay:0.3s">
+    <text class="off" x="24" y="34">00000000:</text>
+    <text class="hex" x="120" y="34">4a6f 7267 6520 456e 7269 7175 6520 53c3</text>
+    <text class="asc" x="510" y="34">Jorge Enrique S.</text>
+  </g>
+  <g class="row" style="animation-delay:1.2s">
+    <text class="off" x="24" y="60">00000010:</text>
+    <text class="hex" x="120" y="60">a16e 6368 657a 2045 6e63 696e 6173</text>
+    <text class="asc" x="510" y="60">.nchez Encinas</text>
+  </g>
+</svg>

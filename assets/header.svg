@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="290" viewBox="0 0 860 290" role="img" aria-labelledby="t d">
+  <title id="t">Jorge Enrique Sánchez Encinas</title>
+  <desc id="d">Terminal: whoami. Jorge Enrique Sánchez Encinas. I build systems that work in real time. Computer Science at Tec de Monterrey, former FRC 7102 lead programmer, learning penetration testing.</desc>
+  <style>
+    .mono { font-family: 'Geist Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+    .sans { font-family: Archivo,'Helvetica Neue',Helvetica,Arial,sans-serif; }
+    .prompt { fill: #D9C7A0; font-size: 15px; }
+    .cmd { fill: #F3F1EC; font-size: 15px; }
+    .cap { fill: rgba(243,241,236,.56); font-size: 12px; letter-spacing: .08em; }
+    .name { font-family: Archivo,'Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 38px; font-weight: 500; letter-spacing: -0.03em; fill: #F3F1EC; }
+    .frame { font-family: 'Geist Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; font-size: 33px; letter-spacing: 0; fill: #D9C7A0; opacity: 0; animation: blip 0.07s linear forwards; }
+    .final { opacity: 0; animation: on .01s linear 1.63s forwards; }
+    .tag { fill: rgba(243,241,236,.82); font-size: 21px; }
+    .tag .hi { fill: #D9C7A0; }
+    .meta { fill: rgba(243,241,236,.56); font-size: 13px; }
+    .meta .sep { fill: rgba(243,241,236,.22); }
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.16,1,.3,1) forwards; }
+    .cover { animation: type .6s steps(6) .35s forwards; }
+    .cursor { fill: #D9C7A0; animation: blink 1.1s steps(1) infinite; }
+    @keyframes blip { 0%, 99% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes on { to { opacity: 1; } }
+    @keyframes type { to { transform: translateX(62px); } }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .frame, .cover { display: none; }
+      .final, .rise { opacity: 1; animation: none; }
+      .cursor { animation: none; }
+    }
+  </style>
+  <rect x="0.5" y="0.5" width="859" height="289" rx="14" fill="#0B0C0D" stroke="rgba(243,241,236,.14)"/>
+  <path d="M0.5 40.5 H859.5" stroke="rgba(243,241,236,.10)"/>
+  <circle cx="24" cy="20.5" r="5" fill="rgba(243,241,236,.18)"/>
+  <circle cx="42" cy="20.5" r="5" fill="rgba(243,241,236,.18)"/>
+  <circle cx="60" cy="20.5" r="5" fill="rgba(243,241,236,.18)"/>
+  <text class="mono cap" x="430" y="25" text-anchor="middle">~/jsencinas</text>
+  <text class="mono cap" x="836" y="25" text-anchor="end">GDL, MX</text>
+
+  <text class="mono prompt" x="40" y="86">jorge@gdl:~$</text>
+  <text class="mono cmd" x="160" y="86">whoami</text>
+  <rect class="cover" x="156" y="68" width="66" height="26" fill="#0B0C0D"/>
+
+    <text class="name frame" x="40" y="146" style="animation-delay:1.00s">N4UIX MO&amp;TAKJ &lt;\A&lt;U#O SDH&lt;59&gt;</text>
+    <text class="name frame" x="40" y="146" style="animation-delay:1.07s">Jor&lt;/ E##4&gt;8/ TJISRG6 /OQ\T&lt;Z</text>
+    <text class="name frame" x="40" y="146" style="animation-delay:1.14s">Jorge 9VBE=W8 N27OWB&lt; J\4BO*1</text>
+    <text class="name frame" x="40" y="146" style="animation-delay:1.21s">Jorge EnrN/RZ 3PXN7\R /D03=&amp;M</text>
+    <text class="name frame" x="40" y="146" style="animation-delay:1.28s">Jorge EnriquY F8=&amp;DS4 3VLYG22</text>
+    <text class="name frame" x="40" y="146" style="animation-delay:1.35s">Jorge Enrique Sá&gt;94%B 3BAS6E&amp;</text>
+    <text class="name frame" x="40" y="146" style="animation-delay:1.42s">Jorge Enrique SánchV6 8AU7S/+</text>
+    <text class="name frame" x="40" y="146" style="animation-delay:1.49s">Jorge Enrique Sánchez =L1B&gt;5I</text>
+    <text class="name frame" x="40" y="146" style="animation-delay:1.56s">Jorge Enrique Sánchez EncSVRT</text>
+  <text class="name final" x="40" y="146">Jorge Enrique Sánchez Encinas</text>
+
+  <text class="sans tag rise" x="40" y="190" style="animation-delay:1.78s">I build systems that work in <tspan class="hi">real time</tspan>.</text>
+  <text class="mono meta rise" x="40" y="226" style="animation-delay:2.08s">CS @ Tec de Monterrey <tspan class="sep">/</tspan> ex lead programmer, FRC 7102 <tspan class="sep">/</tspan> learning pentesting on Hack The Box</text>
+
+  <g class="rise" style="animation-delay:2.43s">
+    <text class="mono prompt" x="40" y="266">jorge@gdl:~$</text>
+    <rect class="cursor" x="160" y="253" width="9" height="17"/>
+  </g>
+</svg>
