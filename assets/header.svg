@@ -7,23 +7,63 @@
     .prompt { fill: #D9C7A0; font-size: 15px; }
     .cmd { fill: #F3F1EC; font-size: 15px; }
     .cap { fill: rgba(243,241,236,.56); font-size: 12px; letter-spacing: .08em; }
-    .name { font-family: Archivo,'Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 38px; font-weight: 500; letter-spacing: -0.03em; fill: #F3F1EC; }
-    .frame { font-family: 'Geist Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; font-size: 33px; letter-spacing: 0; fill: #D9C7A0; opacity: 0; animation: blip 0.07s linear forwards; }
-    .final { opacity: 0; animation: on .01s linear 1.63s forwards; }
+    .name { font-family: 'Geist Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; font-size: 33px; font-weight: 500; fill: #F3F1EC; }
+    .name .x { fill: #D9C7A0; }
+    /* every frame runs on one shared 4s timeline with step-end, so exactly one is visible at a time */
+    .f, .final { opacity: 0; animation-duration: 4s; animation-timing-function: step-end; animation-fill-mode: forwards; }
+    @keyframes f0 { 0% { opacity: 0; } 25.000% { opacity: 1; } 26.750% { opacity: 0; } 100% { opacity: 0; } }
+    .f0 { animation-name: f0; }
+    @keyframes f1 { 0% { opacity: 0; } 26.750% { opacity: 1; } 28.500% { opacity: 0; } 100% { opacity: 0; } }
+    .f1 { animation-name: f1; }
+    @keyframes f2 { 0% { opacity: 0; } 28.500% { opacity: 1; } 30.250% { opacity: 0; } 100% { opacity: 0; } }
+    .f2 { animation-name: f2; }
+    @keyframes f3 { 0% { opacity: 0; } 30.250% { opacity: 1; } 32.000% { opacity: 0; } 100% { opacity: 0; } }
+    .f3 { animation-name: f3; }
+    @keyframes f4 { 0% { opacity: 0; } 32.000% { opacity: 1; } 33.750% { opacity: 0; } 100% { opacity: 0; } }
+    .f4 { animation-name: f4; }
+    @keyframes f5 { 0% { opacity: 0; } 33.750% { opacity: 1; } 35.500% { opacity: 0; } 100% { opacity: 0; } }
+    .f5 { animation-name: f5; }
+    @keyframes f6 { 0% { opacity: 0; } 35.500% { opacity: 1; } 37.250% { opacity: 0; } 100% { opacity: 0; } }
+    .f6 { animation-name: f6; }
+    @keyframes f7 { 0% { opacity: 0; } 37.250% { opacity: 1; } 39.000% { opacity: 0; } 100% { opacity: 0; } }
+    .f7 { animation-name: f7; }
+    @keyframes f8 { 0% { opacity: 0; } 39.000% { opacity: 1; } 40.750% { opacity: 0; } 100% { opacity: 0; } }
+    .f8 { animation-name: f8; }
+    @keyframes f9 { 0% { opacity: 0; } 40.750% { opacity: 1; } 42.500% { opacity: 0; } 100% { opacity: 0; } }
+    .f9 { animation-name: f9; }
+    @keyframes f10 { 0% { opacity: 0; } 42.500% { opacity: 1; } 44.250% { opacity: 0; } 100% { opacity: 0; } }
+    .f10 { animation-name: f10; }
+    @keyframes f11 { 0% { opacity: 0; } 44.250% { opacity: 1; } 46.000% { opacity: 0; } 100% { opacity: 0; } }
+    .f11 { animation-name: f11; }
+    @keyframes f12 { 0% { opacity: 0; } 46.000% { opacity: 1; } 47.750% { opacity: 0; } 100% { opacity: 0; } }
+    .f12 { animation-name: f12; }
+    @keyframes f13 { 0% { opacity: 0; } 47.750% { opacity: 1; } 49.500% { opacity: 0; } 100% { opacity: 0; } }
+    .f13 { animation-name: f13; }
+    @keyframes f14 { 0% { opacity: 0; } 49.500% { opacity: 1; } 51.250% { opacity: 0; } 100% { opacity: 0; } }
+    .f14 { animation-name: f14; }
+    @keyframes f15 { 0% { opacity: 0; } 51.250% { opacity: 1; } 53.000% { opacity: 0; } 100% { opacity: 0; } }
+    .f15 { animation-name: f15; }
+    @keyframes f16 { 0% { opacity: 0; } 53.000% { opacity: 1; } 54.750% { opacity: 0; } 100% { opacity: 0; } }
+    .f16 { animation-name: f16; }
+    @keyframes f17 { 0% { opacity: 0; } 54.750% { opacity: 1; } 56.500% { opacity: 0; } 100% { opacity: 0; } }
+    .f17 { animation-name: f17; }
+    @keyframes final { 0% { opacity: 0; } 56.500% { opacity: 1; } 100% { opacity: 1; } }
+    .final { animation-name: final; }
     .tag { fill: rgba(243,241,236,.82); font-size: 21px; }
     .tag .hi { fill: #D9C7A0; }
     .meta { fill: rgba(243,241,236,.56); font-size: 13px; }
     .meta .sep { fill: rgba(243,241,236,.22); }
     .rise { opacity: 0; animation: rise .7s cubic-bezier(.16,1,.3,1) forwards; }
+    .r1 { animation-delay: 2.41s; }
+    .r2 { animation-delay: 2.71s; }
+    .r3 { animation-delay: 3.06s; }
     .cover { animation: type .6s steps(6) .35s forwards; }
-    .cursor { fill: #D9C7A0; animation: blink 1.1s steps(1) infinite; }
-    @keyframes blip { 0%, 99% { opacity: 1; } 100% { opacity: 0; } }
-    @keyframes on { to { opacity: 1; } }
+    .cursor { fill: #D9C7A0; animation: blink 1.1s step-end infinite; }
     @keyframes type { to { transform: translateX(62px); } }
-    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
-    @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
     @media (prefers-reduced-motion: reduce) {
-      .frame, .cover { display: none; }
+      .f, .cover { display: none; }
       .final, .rise { opacity: 1; animation: none; }
       .cursor { animation: none; }
     }
@@ -40,21 +80,30 @@
   <text class="mono cmd" x="160" y="86">whoami</text>
   <rect class="cover" x="156" y="68" width="66" height="26" fill="#0B0C0D"/>
 
-    <text class="name frame" x="40" y="146" style="animation-delay:1.00s">N4UIX MO&amp;TAKJ &lt;\A&lt;U#O SDH&lt;59&gt;</text>
-    <text class="name frame" x="40" y="146" style="animation-delay:1.07s">Jor&lt;/ E##4&gt;8/ TJISRG6 /OQ\T&lt;Z</text>
-    <text class="name frame" x="40" y="146" style="animation-delay:1.14s">Jorge 9VBE=W8 N27OWB&lt; J\4BO*1</text>
-    <text class="name frame" x="40" y="146" style="animation-delay:1.21s">Jorge EnrN/RZ 3PXN7\R /D03=&amp;M</text>
-    <text class="name frame" x="40" y="146" style="animation-delay:1.28s">Jorge EnriquY F8=&amp;DS4 3VLYG22</text>
-    <text class="name frame" x="40" y="146" style="animation-delay:1.35s">Jorge Enrique Sá&gt;94%B 3BAS6E&amp;</text>
-    <text class="name frame" x="40" y="146" style="animation-delay:1.42s">Jorge Enrique SánchV6 8AU7S/+</text>
-    <text class="name frame" x="40" y="146" style="animation-delay:1.49s">Jorge Enrique Sánchez =L1B&gt;5I</text>
-    <text class="name frame" x="40" y="146" style="animation-delay:1.56s">Jorge Enrique Sánchez EncSVRT</text>
-  <text class="name final" x="40" y="146">Jorge Enrique Sánchez Encinas</text>
+  <text class="name f f0" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146"><tspan class="x">P7WJZ NQ&gt;VALK =A=W*QU DH=8&amp;+=</tspan></text>
+  <text class="name f f1" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jo<tspan class="x">E&lt;&lt; 8&amp;VKKVU G#QSV+3 *YBEY%P</tspan></text>
+  <text class="name f f2" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jor<tspan class="x">5# QYB+L8B R=5PT27 R0Q%TD4</tspan></text>
+  <text class="name f f3" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jorge<tspan class="x"> 7/P0F&amp;/ DU87YM0 G66*8&gt;B</tspan></text>
+  <text class="name f f4" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jorge <tspan class="x">6BAU#E&gt; Y#&amp;AW%U N4B8JUY</tspan></text>
+  <text class="name f f5" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jorge En<tspan class="x">UW9D3 LHAK3E3 JB#H+FB</tspan></text>
+  <text class="name f f6" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jorge Enri<tspan class="x">JZZ 2Q2//L+ &lt;%HYF=#</tspan></text>
+  <text class="name f f7" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jorge Enriq<tspan class="x">CY B#+WJDJ 26L8#92</tspan></text>
+  <text class="name f f8" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jorge Enrique<tspan class="x"> 2V9JA&amp;5 CCVFV&lt;%</tspan></text>
+  <text class="name f f9" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jorge Enrique <tspan class="x">6&gt;5+3YE THFL&amp;P9</tspan></text>
+  <text class="name f f10" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jorge Enrique Sá<tspan class="x">R#AX= *7&amp;J93*</tspan></text>
+  <text class="name f f11" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jorge Enrique Sánc<tspan class="x">+GJ 5Q+HRGV</tspan></text>
+  <text class="name f f12" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jorge Enrique Sánch<tspan class="x">AU Q003DV&lt;</tspan></text>
+  <text class="name f f13" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jorge Enrique Sánchez<tspan class="x"> 8LYH3&lt;X</tspan></text>
+  <text class="name f f14" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jorge Enrique Sánchez E<tspan class="x">3RGY2L</tspan></text>
+  <text class="name f f15" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jorge Enrique Sánchez En<tspan class="x">3S4LJ</tspan></text>
+  <text class="name f f16" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jorge Enrique Sánchez Enci<tspan class="x">5&amp;2</tspan></text>
+  <text class="name f f17" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jorge Enrique Sánchez Encin<tspan class="x">NA</tspan></text>
+  <text class="name final" x="40 61 82 103 124 145 166 187 208 229 250 271 292 313 334 355 376 397 418 439 460 481 502 523 544 565 586 607 628" y="146">Jorge Enrique Sánchez Encinas</text>
 
-  <text class="sans tag rise" x="40" y="190" style="animation-delay:1.78s">I build systems that work in <tspan class="hi">real time</tspan>.</text>
-  <text class="mono meta rise" x="40" y="226" style="animation-delay:2.08s">CS @ Tec de Monterrey <tspan class="sep">/</tspan> ex lead programmer, FRC 7102 <tspan class="sep">/</tspan> learning pentesting on Hack The Box</text>
+  <text class="sans tag rise r1" x="40" y="190">I build systems that work in <tspan class="hi">real time</tspan>.</text>
+  <text class="mono meta rise r2" x="40" y="226">CS @ Tec de Monterrey <tspan class="sep">/</tspan> ex lead programmer, FRC 7102 <tspan class="sep">/</tspan> learning pentesting on Hack The Box</text>
 
-  <g class="rise" style="animation-delay:2.43s">
+  <g class="rise r3">
     <text class="mono prompt" x="40" y="266">jorge@gdl:~$</text>
     <rect class="cursor" x="160" y="253" width="9" height="17"/>
   </g>

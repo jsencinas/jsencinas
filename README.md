@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <a href="https://jsencinas.github.io/"><img src="https://img.shields.io/badge/jsencinas.github.io-D9C7A0?style=for-the-badge&logo=googlechrome&logoColor=0B0C0D" alt="Website" /></a>
-  <a href="https://www.linkedin.com/in/jsencinas"><img src="https://img.shields.io/badge/LinkedIn-141517?style=for-the-badge&logo=linkedin&logoColor=D9C7A0" alt="LinkedIn" /></a>
-  <a href="mailto:jesanchezencinas@gmail.com"><img src="https://img.shields.io/badge/Email-141517?style=for-the-badge&logo=gmail&logoColor=D9C7A0" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Open_to_internships-141517?style=for-the-badge&logo=target&logoColor=D9C7A0" alt="Open to internships" />
+  <a href="https://jsencinas.github.io/"><img src="./assets/badge-website.svg" height="32" alt="Website: jsencinas.github.io" /></a>
+  <a href="https://www.linkedin.com/in/jsencinas"><img src="./assets/badge-linkedin.svg" height="32" alt="LinkedIn" /></a>
+  <a href="mailto:jesanchezencinas@gmail.com"><img src="./assets/badge-email.svg" height="32" alt="Email" /></a>
+  <img src="./assets/badge-internships.svg" height="32" alt="Open to internships" />
 </p>
 
 ### `~/now`

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="32" viewBox="0 0 108 32" role="img" aria-label="linkedin">
+  <style>text{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:13px;font-weight:500}</style>
+  <rect x="0.5" y="0.5" width="107" height="31" rx="8" fill="#141517" stroke="rgba(243,241,236,.22)"/>
+  
+  <text x="14" y="20.5" fill="#F3F1EC" textLength="80" lengthAdjust="spacing">linkedin ↗</text>
+</svg>
