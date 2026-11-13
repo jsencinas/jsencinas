@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://jsencinas.github.io/">
-    <img src="./assets/header.svg" width="100%" alt="jorge@gdl:~$ whoami: Jorge Enrique Sánchez Encinas. I build systems that work in real time." />
+    <img src="./assets/header.svg" width="100%" alt="jorge@gdl:~$ whoami: Jorge Enrique Sánchez Encinas" />
   </a>
 </p>
 
@@ -44,8 +44,7 @@ jorge@gdl:~$ ls projects/
 ### `~/stats`
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jsencinas&show_icons=true&hide_border=true&count_private=true&bg_color=0B0C0D&title_color=D9C7A0&icon_color=D9C7A0&text_color=F3F1EC&ring_color=D9C7A0" height="165" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=jsencinas&layout=compact&hide_border=true&langs_count=6&bg_color=0B0C0D&title_color=D9C7A0&text_color=F3F1EC" height="165" alt="Top languages" />
+  <img src="./assets/stats.svg" width="100%" alt="GitHub activity: contributions in the last year, streaks, public repos and top languages" />
 </p>
 
 <p align="center">
