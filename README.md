@@ -44,7 +44,7 @@ jorge@gdl:~$ ls projects/
 ### `~/stats`
 
 <p align="center">
-  <img src="./assets/stats.svg" width="100%" alt="GitHub activity: contributions in the last year, streaks, public repos and top languages" />
+  <img src="./assets/stats.svg" width="100%" alt="GitHub activity: contributions in the last year, public repos and top languages" />
 </p>
 
 <p align="center">
