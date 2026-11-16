@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="98" height="20" viewBox="0 0 98 20" role="img" aria-label="jorge@gdl:~$">
+  <!-- the shell prompt inside the README's projects block; GitHub strips colors from text, so it is an image.
+       The background is GitHub's code block color (dark theme), since GitHub paints the page color behind images. -->
+  <rect width="98" height="20" fill="#151b23"/>
+  <text x="0" y="14" fill="#D9C7A0" textLength="97.9" lengthAdjust="spacingAndGlyphs" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.6">jorge@gdl:~$</text>
+</svg>

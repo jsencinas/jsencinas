@@ -23,7 +23,7 @@ Now I want to learn how systems like these hold up when someone tries to break t
 ### `~/projects`
 
 <pre>
-jorge@gdl:~$ tree -L 1 projects/
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/prompt-dark.svg"><img src="./assets/prompt-light.svg" alt="jorge@gdl:~$" width="98" height="20" align="top"></picture> tree -L 1 projects/
 projects/
 ├── <a href="https://github.com/jsencinas/Synthia_hackmty26">synthia/</a>
 ├── <a href="https://github.com/jsencinas/autexa-customer-follow-up">autexa/</a>
