@@ -4,8 +4,8 @@
 It copies the website (jsencinas.github.io) with SVG and CSS only, because GitHub
 shows README images as <img>, which runs no JavaScript and loads no outside files:
 
-- type: the name is set like the site's hero, Archivo 56px at -0.035em tracking, two
-  lines with the second one in gray. Archivo and Geist Mono are embedded as base64
+- type: the name is set like the site's hero, Archivo 56px at -0.035em tracking,
+  on one line, with the last names in gray (the hero's second line). Archivo and Geist Mono are embedded as base64
   (assets/fonts, SIL Open Font License), so GitHub draws the same fonts as the site.
 - terminal (page.js): the command is typed 95 ms per letter after 500 ms, then the
   output rows come in 260 ms apart (360 ms fade and 6 px rise) and the cursor moves
@@ -16,7 +16,8 @@ shows README images as <img>, which runs no JavaScript and loads no outside file
   Each letter has a fixed x, so nothing moves when it locks.
 
 Letter positions come from header-metrics.json, measured in a browser with
-canvas measureText (kerning on) on assets/fonts/archivo-var.woff2. Measure again
+canvas measureText (kerning on) on assets/fonts/archivo-var.woff2, for the whole
+name as one line; "pos" holds the first names and the last names as two groups. Measure again
 if the name, font, size or tracking changes.
 
 Run from the repo root:  python3 .github/scripts/header.py
@@ -67,14 +68,14 @@ def scramble(ch, rnd):
 CMD = 'whoami'
 CMD_PITCH = 9         # Geist Mono advance at 15px (0.6 em)
 NAME_X = 40
-LINES = [(152, TEXT), (208, TEXT_2)]   # baseline, color: line height 1, as in the hero
+LINES = [(152, TEXT), (152, TEXT_2)]   # baseline and color of each group: one line, last names in gray
 
 type_end = TYPE_DELAY + len(CMD) * TYPE_EVERY
 t_name = type_end + ROW_EVERY          # first output row: the name, already scrambling
 t_meta = t_name + ROW_EVERY            # second row
 t_end = t_meta + ROW_EVERY             # last prompt, the cursor moves here
 
-# every letter of both lines, in reading order, as decrypt.js walks the title
+# every letter of both groups, in reading order, as decrypt.js walks the title
 letters = []
 for li, line in enumerate(M['pos']):
     for p in line:
@@ -100,7 +101,7 @@ def pct(ms):
 
 
 def line_text(glyphs, li):
-    """One line as tspans of runs; every glyph carries its own x."""
+    """One group as tspans of runs; every glyph carries its own x."""
     y, color = LINES[li]
     runs, cur = [], None
     for ch, x, dim in glyphs:
@@ -151,7 +152,7 @@ kf.append(f'    @keyframes final {{ 0% {{ opacity: 0; }} {pct(t_final)} {{ opaci
 kf.append(f'    @keyframes gone {{ 0% {{ visibility: visible; }} {pct(t_end)} {{ visibility: hidden; }} 100% {{ visibility: hidden; }} }}')
 
 NAME = ' '.join(''.join(p['c'] for p in line) for line in M['pos'])
-H = 320
+H = 264
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="{H}" viewBox="0 0 860 {H}" role="img" aria-labelledby="t d">
   <title id="t">{NAME}</title>
@@ -207,11 +208,11 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="{H}" viewB
     <g class="final">{final}</g>
   </g>
 
-  <text class="mono meta row r2" x="40" y="256">CS @ Tec de Monterrey <tspan class="sep">/</tspan> ex lead programmer, FRC 7102 <tspan class="sep">/</tspan> learning pentesting on Hack The Box</text>
+  <text class="mono meta row r2" x="40" y="200">CS @ Tec de Monterrey <tspan class="sep">/</tspan> ex lead programmer, FRC 7102 <tspan class="sep">/</tspan> learning pentesting on Hack The Box</text>
 
   <g class="row r3">
-    <text class="mono prompt" x="40" y="296">jorge@gdl:~$</text>
-    <rect class="cursor" x="160" y="283" width="9" height="18"/>
+    <text class="mono prompt" x="40" y="240">jorge@gdl:~$</text>
+    <rect class="cursor" x="160" y="227" width="9" height="18"/>
   </g>
 </svg>
 '''
