@@ -22,17 +22,17 @@ Now I want to learn how systems like these hold up when someone tries to break t
 
 ### `~/projects`
 
-```console
-jorge@gdl:~$ ls projects/
-```
+<pre>
+jorge@gdl:~$ tree -L 1 projects/
+projects/
+├── <a href="https://github.com/jsencinas/Synthia_hackmty26">synthia/</a>
+├── <a href="https://github.com/jsencinas/autexa-customer-follow-up">autexa/</a>
+├── <a href="https://github.com/Daedalus7102">frc-7102/</a>
+├── <a href="https://github.com/jsencinas/Robotic_arm-Coordinates_based">robotic-arm/</a>
+└── <a href="https://github.com/jsencinas/dotfiles">dotfiles/</a>
 
-<p>
-  <a href="https://github.com/jsencinas/Synthia_hackmty26"><img src="./assets/project-01.svg" width="100%" alt="Synthia: see the repo" /></a><br/>
-  <a href="https://github.com/jsencinas/autexa-customer-follow-up"><img src="./assets/project-02.svg" width="100%" alt="Autexa: see the repo" /></a><br/>
-  <a href="https://github.com/Daedalus7102"><img src="./assets/project-03.svg" width="100%" alt="FIRST Robotics 7102: see the team on GitHub" /></a><br/>
-  <a href="https://github.com/jsencinas/Robotic_arm-Coordinates_based"><img src="./assets/project-04.svg" width="100%" alt="6-DOF robotic arm: see the repo" /></a><br/>
-  <a href="https://github.com/jsencinas/dotfiles"><img src="./assets/project-dotfiles.svg" width="100%" alt="dotfiles: see the repo" /></a>
-</p>
+5 directories, 0 files
+</pre>
 
 ### `~/skills`
 
